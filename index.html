@@ -76,19 +76,19 @@
     <header>
 
         <div class="header-content row">
-            <div class="header-content-inner col-lg-4 col-md-4 col-sm-12 animated fadeInUp">
+            <div class="header-content-inner col-lg-4 col-md-4 col-sm-4 animated fadeInUp">
                 <h1 id="homeHeading">VR & AR Production Services</h1>
                   <br />
                 <p style="margin-right:0px;">Immerge into the futuristic colonized Solar System of EXPANSE, discover the life of detective Josephus Miller by taking on his helmet. </p>
                 <a href="#about" type="button" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
             </div>
             <!-- helmet image - replace to webGL -->
-            <div class="helmet col-lg-4 col-md-5 col-sm-12 animated fadeIn" >
+            <div class="helmet col-lg-4 col-md-5 col-sm-7 animated fadeIn" >
               <img class="col-lg-12 col-md-12 col-sm-10" src="img/helmet.png" />
             </div>
-            <!-- AREO section -->
         </div>
-        <div id="trapezoid" class="col-lg-6 col-md-6 col-sm-12 animated fadeIn">
+          <!-- AREO section -->
+        <div id="trapezoid" class="col-lg-6 col-md-6 col-sm-6 animated fadeIn">
 
           <img class="area-mockup col-lg-9 col-md-11 col-sm-9 animated fadeInLeft" src ="img/areo-screen-tilt.png" />
 
@@ -103,6 +103,21 @@
  </div>
         </div>
     </header>
+
+<section id="aero-mobile">
+    <div class="col-lg-6 col-md-6 col-sm-12 animated fadeIn">
+
+      <img class="col-md-6 col-sm-6 animated fadeInLeft" style="width:120vw; margin-left:-100px;" src ="img/areo-screen-tilt.png" />
+
+        <img class="areo-logo" src="img/areo-logo.svg" />
+        <h2>Stunning New VR Platform</h2>
+        <br />
+        <p style="color:rgba(255, 255, 255, 0.7);">AREO is the simple solution for everyone to create product display, games, virtual open house, interactive story etc.
+        All brought to you by SpinVR.
+         </p>
+         <a href="www.google.com" type="button" class="btn btn-primary btn-xl page-scroll">Goto AREO</a>
+    </div>
+</section>
 
     <section class="bg-primary" id="about">
         <div class="container">
@@ -153,14 +168,14 @@
                     <div class="service-box">
                         <i class="fa fa-4x fa-diamond text-primary sr-icons wow fadeIn" data-wow-delay="0.2s"></i>
                         <h3>Tailor to your need</h3>
-                        <p class="text-muted">Our templates are updated regularly so they don't break.</p>
+                        <p class="text-muted">We update our templates and presets everyday.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-rocket text-primary sr-icons wow fadeIn" data-wow-delay="0.6s"></i>
                         <h3>Ready to Ship</h3>
-                        <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+                        <p class="text-muted">Use as is, or create your own.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
@@ -182,7 +197,6 @@
     </section>
 
     <section class="no-padding upper-border-red" id="portfolio">
-        <div class="container-fluid">
             <div class="row no-gutter popup-gallery">
                 <div class="col-lg-4 col-sm-6">
                     <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
@@ -273,13 +287,12 @@
                     </a>
                 </div> -->
             </div>
-        </div>
     </section>
 
     <section id="contact">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-md-12 col-lg-offset-2 text-center margin-top-30">
+            <div class="row col-sm-12 ">
+                <div class="col-lg-8 col-md-12 col-sm-12 col-lg-offset-2 text-center">
                       <br />
                     <h2 class="section-heading">Let's Stay In Touch!</h2>
                     <!-- <hr class="primary"> -->
@@ -295,10 +308,10 @@
                   <i class="fa fa-instagram fa-2x sr-contact icon-space"></i>
                 </div>
 
-                <form class="col-lg-6 col-md-6 text-center margin-top-20 col-lg-offset-3">
+                <form class="col-lg-6 col-md-6 col-sm-6 text-center margin-top-20 col-lg-offset-3">
                   <div class="form-group row">
                     <label for="lgFormGroupInput" class="col-sm-2 col-form-label col-form-label-lg">  <i class="fa fa-envelope-o fa-2x sr-contact"></i></label>
-                    <div class="col-lg-8 col-md-6">
+                    <div class="col-lg-8 col-md-8 col-sm-8">
                       <input type="email" class="form-control form-control-lg" id="lgFormGroupInput" placeholder="Enter your Email">
                     </div>
                      <button type="submit" class="btn btn-primary col-lg-2"><i class="fa fa-paper-plane"></i></button>
@@ -316,7 +329,20 @@
             <div class="row">
         <!-- google map -->
         <div id="map" class="col-lg-12 col-md-12 col-sm-12"></div>
-
+        <script>
+        // google maps
+        function initMap() {
+          var uluru = {lat: 43.64186, lng: -79.41126};
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 14,
+            center: uluru
+          });
+          var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+          });
+        }
+        </script>
       </div>
       </div>
     <script async defer

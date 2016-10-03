@@ -64,13 +64,14 @@ aside {
   padding: 0;
 }
 .navbar-default {
-  background-color: white;
+  background-color: rgba(0,0,0,0.8);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
   border:none;
 }
+
 .navbar-default .navbar-header .navbar-brand {
   color: #ED1C24;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
@@ -80,12 +81,12 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #000000;
+  color: #fff;
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 100;
   font-size: 12px;
-  color: #222222;
+  color: #fff;
   text-transform: uppercase;
 }
 .navbar-default .nav > li > a,
@@ -93,7 +94,8 @@ aside {
   text-transform: uppercase;
   font-weight: 100;
   font-size: 13px;
-  color: #222222;
+  color: #fff;
+  height:66px;
 }
 
 /* navbar items hover*/
@@ -113,7 +115,6 @@ aside {
 @media (min-width: 768px) {
   .navbar-default {
     background-color: transparent;
-    border-color: rgba(255, 255, 255, 0.3);
   }
   .navbar-default .navbar-header .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
@@ -238,6 +239,7 @@ header .header-content .header-content-inner p {
   display: block;
   max-width: 650px;
   margin: 0 auto;
+  height:auto;
 }
 .portfolio-box .portfolio-box-caption {
   color: white;
@@ -426,6 +428,11 @@ body {
 }
 
 /*    *****************************   kylo defined ****************************    */
+.navbar-collapse{
+  background-color: black !important;
+  color:white !important;
+}
+
 .icon-space {
   margin:auto 30px auto 30px;
 }
@@ -437,7 +444,6 @@ body {
 .container-fluid {
   height:66px;
   border:none;
-  background-color: rgba(0, 0, 0, 0.7);
 }
 
 #homeHeading {
@@ -590,14 +596,98 @@ body {
 .margin-top-30 { margin-top: 3.0em; }
 
 
-
 /*kylo define mobile optimization*/
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
+  #aero-mobile {
+    display: none;
+  }
+  .helmet {
+    margin-left: -7vw;
+  }
+}
+
+@media (min-width: 992px) and (max-width:1200px){
+  .helmet {
+    margin-left: -7vw;
+  }
+
+  .navbar-brand{
+    margin-left: 100px;
+  }
+
+  #aero-mobile {
+    display: none;
+  }
+
+  .areo-box{
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 992px) and (min-width:768px){
+  .helmet {
+    margin-left: -7vw;
+  }
+
+  .navbar-brand{
+    margin-left:0px;
+  }
+
+  #aero-mobile {
+    display: none;
+  }
+
+  .areo-description{
+    right:7vw;
+  }
+
+  .header-content{
+    padding-left:20px !important;
+    margin-left:0px !important;
+  }
+  .header-content-inner {
+    margin-top:-100px;
+  }
+
+}
+
+@media (max-width: 767px) {
   .helmet {
     margin-left: -5vw;
   }
 
   .navbar-brand{
-    margin-left: 100px !important;
+    margin-left: 100px;
   }
+
+  #aero-mobile{
+    position:relative;
+    width:100vw;
+    height:auto;
+    padding:50px;
+  }
+
+  #trapezoid {
+    display:none;
+  }
+
+  .areo-description{
+    -webkit-transform: skew(0deg);
+       -moz-transform: skew(0deg);
+         -o-transform: skew(0deg);
+         bottom:auto;
+         position: relative;
+  }
+
+#homeHeading{
+    font-size: 3.5em;
+  }
+
+.header-content-inner p{
+  font-size: 2.3em;
+}
+
+.icon-space {
+  margin:auto 15px auto 15px;
+}
 }
