@@ -129,6 +129,7 @@ aside {
   .navbar-default .nav > li > a:hover,
   .navbar-default .nav > li > a:focus:hover {
     color: white;
+    border-bottom: 2px solid #ED1C24;
   }
   .navbar-default.affix {
     background-color: white;
@@ -169,6 +170,8 @@ header .header-content {
   position: relative;
   text-align: right;
   padding: 100px 15px 100px;
+  text-align: left;
+  margin-left: 5vw;
 }
 header .header-content .header-content-inner h1 {
   font-weight: 100;
@@ -178,7 +181,7 @@ header .header-content .header-content-inner h1 {
   font-size: 30px;
 }
 header .header-content .header-content-inner hr {
-  margin: 30px auto;
+  margin: 30px auto 30px 30px;
 }
 header .header-content .header-content-inner p {
   font-weight: 300;
@@ -186,6 +189,8 @@ header .header-content .header-content-inner p {
   font-size: 16px;
   margin-bottom: 50px;
 }
+
+/* mobile optimization */
 @media (min-width: 768px) {
   header {
     min-height: 100%;
@@ -210,7 +215,6 @@ header .header-content .header-content-inner p {
   header .header-content .header-content-inner p {
     font-size: 18px;
     max-width: 80%;
-    margin-left: auto;
     margin-right: auto;
   }
 }
@@ -422,6 +426,13 @@ body {
 }
 
 /*    *****************************   kylo defined ****************************    */
+.icon-space {
+  margin:auto 30px auto 30px;
+}
+
+.upper-border-red {
+  border-top: 3px solid #d11a23;
+}
 
 .container-fluid {
   height:66px;
@@ -478,7 +489,7 @@ body {
 
 .area-mockup{
   position: absolute;
-  bottom:35vh;
+  bottom:38vh;
 }
 
 .areo-logo {
@@ -558,4 +569,35 @@ body {
 #map {
   height:500px;
   margin-bottom: 50px;
+}
+
+.map-wrap {
+	position:relative;
+}
+
+.overlay {
+	width:100%;
+	min-height:500px;
+	position:absolute;
+	top:0;
+}
+
+.margin-top-05 { margin-top: 0.5em; }
+.margin-top-10 { margin-top: 1.0em; }
+.margin-top-15 { margin-top: 1.5em; }
+.margin-top-20 { margin-top: 2.0em; }
+.margin-top-25 { margin-top: 2.5em; }
+.margin-top-30 { margin-top: 3.0em; }
+
+
+
+/*kylo define mobile optimization*/
+@media (min-width: 992px) {
+  .helmet {
+    margin-left: -5vw;
+  }
+
+  .navbar-brand{
+    margin-left: 100px !important;
+  }
 }

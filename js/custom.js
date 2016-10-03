@@ -1,7 +1,8 @@
+// rotate helmet
+
 $(document).ready(function () {
     DoRotate(360);
     AnimateRotate(360);
-    hideShip();
 });
 
 function DoRotate(d) {
@@ -24,11 +25,17 @@ function AnimateRotate(d){
     });
 }
 
-function hideShip() {
-  if($(".spaceship").hasClass("animated")){
-    console.log("has class aniamte");
-  }
-  else {
-      console.log("no class");
-  }
+
+
+// google maps
+function initMap() {
+  var uluru = {lat: 43.64186, lng: -79.41126};
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 14,
+    center: uluru
+  });
+  var marker = new google.maps.Marker({
+    position: uluru,
+    map: map
+  });
 }
