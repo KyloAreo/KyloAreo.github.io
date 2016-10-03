@@ -526,7 +526,6 @@ body {
 .areo-box {
   position: relative;
   right:50%;
-  width:100%;
 }
 
 .nexus {
@@ -544,8 +543,8 @@ body {
 
 .ozo {
   margin-left:50%;
-  margin-top: -20%;
-  max-width: 200px;
+  margin-top: -10%;
+  max-width: 170px;
 }
 
 .ozzo-bg {
