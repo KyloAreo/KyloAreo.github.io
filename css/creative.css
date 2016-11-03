@@ -429,8 +429,10 @@ body {
 
 /*    *****************************   kylo defined ****************************    */
 .navbar-collapse{
-  background-color: rgba(0,0,0, 0.7) !important;
+  border:none;
+  background-color: rgba(0,0,0, 0.9) !important;
   color:white !important;
+  overflow-y: hidden !important;
 }
 
 .icon-space {
@@ -603,6 +605,7 @@ body {
   }
   .helmet {
     margin-left: -7vw;
+    width:37%;
   }
 }
 
@@ -654,7 +657,7 @@ body {
 @media (max-width: 767px) {
   .helmet {
     margin-left: -5vw;
-    margin-top: 100px;
+    margin-top: 40px;
   }
 
   .navbar-brand{
