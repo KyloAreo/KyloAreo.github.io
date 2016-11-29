@@ -511,7 +511,6 @@ body {
        -o-transform: skew(20deg);
   position: absolute;
   bottom:40px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 100;
   padding:20px;
   text-align: right;
@@ -520,7 +519,6 @@ body {
 }
 
 .areo-description p {
-    opacity:0.6;
 }
 
 #about {
@@ -694,4 +692,12 @@ body {
 .icon-space {
   margin:auto 15px auto 15px;
 }
+}
+
+@media (max-width: 600px) {
+  #homeHeading{
+    font-size:2.5em !important;
+    max-width: 95vw !important;
+    margin-left: 0px;
+  }
 }

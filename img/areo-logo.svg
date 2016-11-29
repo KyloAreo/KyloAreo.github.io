@@ -1,12 +1,42 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="890" height="260" viewBox="0, 0, 890, 260">
-  <g id="Layer_2">
-    <path d="M273.103,245.41 L273.86,15.597 L337.183,15.597 C337.183,15.597 420.825,13.496 420.649,79.754 C420.474,145.976 347.765,143.447 347.765,143.447 L278.424,143.447" fill-opacity="0" stroke="#FFFFFF" stroke-width="15"/>
-    <path d="M32.352,245.41 L129.553,28.826 L221.445,244.755" fill-opacity="0" stroke="#FFFFFF" stroke-width="15" id="Shape"/>
-    <path d="M358.344,145.398 L425.469,245.41" fill-opacity="0" stroke="#FFFFFF" stroke-width="15"/>
-    <path d="M624.654,240.978 L488.102,240.978 L488.449,19.051 L622.78,19.058" fill-opacity="0" stroke="#FFFFFF" stroke-width="15"/>
-    <path d="M488.102,124.266 L606.012,124.23" fill-opacity="0" stroke="#FFFFFF" stroke-width="15"/>
-    <path d="M757.646,240.978 C701.865,240.978 656.645,190.774 656.645,128.845 C656.645,66.915 701.865,16.711 757.646,16.711 C813.428,16.711 858.648,66.915 858.648,128.845 C858.648,190.774 813.428,240.978 757.646,240.978 z" fill-opacity="0" stroke="#FFFFFF" stroke-width="15"/>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 890 260" style="enable-background:new 0 0 890 260;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:15;}
+</style>
+<g id="Layer_2">
+	
+		<image style="overflow:visible;" width="926" height="326" xlink:href="97991E1E3763AD63.png"  transform="matrix(1 0 0 1 -17 -34)">
+	</image>
+	<g>
+		<g>
+			<g>
+				<path class="st0" d="M273.1,245.4l0.8-229.8h63.3c0,0,83.6-2.1,83.5,64.2c-0.2,66.2-72.9,63.7-72.9,63.7h-69.3"/>
+				<path class="st1" d="M273.1,245.4l0.8-229.8h63.3c0,0,83.6-2.1,83.5,64.2c-0.2,66.2-72.9,63.7-72.9,63.7h-69.3"/>
+			</g>
+			<g id="Shape_10_">
+				<polyline class="st0" points="32.4,245.4 129.6,28.8 221.4,244.8 				"/>
+				<polyline class="st1" points="32.4,245.4 129.6,28.8 221.4,244.8 				"/>
+			</g>
+			<g>
+				<line class="st0" x1="358.3" y1="145.4" x2="425.5" y2="245.4"/>
+				<line class="st1" x1="358.3" y1="145.4" x2="425.5" y2="245.4"/>
+			</g>
+			<g>
+				<polyline class="st0" points="624.7,241 488.1,241 488.4,19.1 622.8,19.1 				"/>
+				<polyline class="st1" points="624.7,241 488.1,241 488.4,19.1 622.8,19.1 				"/>
+			</g>
+			<g>
+				<line class="st0" x1="488.1" y1="124.3" x2="606" y2="124.2"/>
+				<line class="st1" x1="488.1" y1="124.3" x2="606" y2="124.2"/>
+			</g>
+			<g>
+				<ellipse class="st0" cx="757.6" cy="128.8" rx="101" ry="112.1"/>
+				<ellipse class="st1" cx="757.6" cy="128.8" rx="101" ry="112.1"/>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>
