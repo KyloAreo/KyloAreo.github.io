@@ -518,7 +518,8 @@ body {
   line-height: 1.5em;
 }
 
-.areo-description p {
+.areo-description h2 {
+    text-shadow: 0px 0px 5px #2b2b2b;
 }
 
 #about {
